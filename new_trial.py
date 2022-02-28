@@ -63,3 +63,5 @@ ort_inputs = {'input': onnx_input}
 ort_outs = ort_session.run(None, ort_inputs)
 decoded = decoder(torch.Tensor(ort_outs[0])[0])
 print(decoded)
+
+# %%
