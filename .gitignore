@@ -2,3 +2,6 @@ model/*
 model
 __pycache__/
 model.onnx
+.ipynb_checkpoints
+.wav
+test/*/*.wav
